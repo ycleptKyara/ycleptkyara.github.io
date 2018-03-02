@@ -1,0 +1,27 @@
+<!doctype html>
+<head>
+<title>yee</title>
+<script language="javascript" type="text/javascript">
+ <!--
+ function delayer(){
+ window.location="alternate_site.html" }
+ -->
+</script>
+</head>
+<body onLoad="setTimeout('delayer()', 7500)">
+<h1 align="center">unfortunately you're not a time traveler</h1>
+<div align="center" >you're visiting on:
+<script language="javascript" type="text/javascript">
+ Today = new Date()
+ document.write(Today);
+</script>
+<div align="center" id="js-test">
+<div id="Enabled" style="visibility:hidden">javascript is enabled. prepare to be redirected!</div>
+<div id="Disabled">pls enable javascript.</div>
+<script language="javascript" type="text/javascript">
+{ document.getElementById("Enabled").style.visibility = 'visible';
+  document.getElementById("Disabled").style.visibility = 'hidden'; }
+</script>
+</div>
+</body>
+</html>

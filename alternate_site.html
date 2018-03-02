@@ -1,0 +1,23 @@
+<!doctype html>
+<head>
+<title>yee yee</title>
+<script language="javascript">
+function MouseRollover(RolloverImage) {
+ RolloverImage.src = "./image/nyan01.gif"; }
+function MouseOut(RolloverImage) {
+ RolloverImage.src = "./image/nyan02.gif"; }
+</script>
+</head>
+<body>
+<div id="nyan" align="center">
+<a href="https://www.google.com/">
+<img src="./image/nyan02.gif" boarder="0px" width="240px" height="152px"
+onMouseOver="MouseRollover(this)"
+onMouseOut="MouseOut(this)"/>
+</a>
+</div>
+<div id="applet" align="center">
+<applet code="HelloWorld.class" width=150 height=25></applet>
+</div>
+</body>
+</html>
